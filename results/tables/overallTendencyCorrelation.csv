@@ -1,0 +1,4 @@
+,depressionTendency,suicidalTendency,neutralTendency
+depressionTendency,1.0,0.7834508294903518,0.5850907664596775
+suicidalTendency,0.7834508294903518,1.0,0.6410593735268175
+neutralTendency,0.5850907664596775,0.6410593735268175,1.0

@@ -1,0 +1,49 @@
+lassification Report of SVM - FastText****************************
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.86      0.87      1213
+         1.0       0.83      0.85      0.84       915
+         2.0       0.84      0.84      0.84      1412
+
+    accuracy                           0.85      3540
+   macro avg       0.85      0.85      0.85      3540
+weighted avg       0.85      0.85      0.85      3540
+
+****************************Classification Report of RBF-Based SVM -
+FastText****************************
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.92      0.89      1213
+         1.0       0.90      0.82      0.86       915
+         2.0       0.85      0.86      0.86      1412
+
+    accuracy                           0.87      3540
+   macro avg       0.87      0.87      0.87      3540
+weighted avg       0.87      0.87      0.87      3540
+
+****************************Classification Report of Random Forest Classifier-
+FastText****************************
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.92      0.88      1213
+         1.0       0.91      0.77      0.83       915
+         2.0       0.83      0.85      0.84      1412
+
+    accuracy                           0.85      3540
+   macro avg       0.86      0.85      0.85      3540
+weighted avg       0.86      0.85      0.85      3540
+
+****************************Classification Report of XGBoost Classifier -
+FastText****************************
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.93      0.90      1213
+         1.0       0.92      0.83      0.88       915
+         2.0       0.88      0.88      0.88      1412
+
+    accuracy                           0.89      3540
+   macro avg       0.89      0.88      0.89      3540
+weighted avg       0.89      0.89      0.89      3540
+
+KMeans ARI - FastText : 0.06635842834693313
+KMeans Silhouette Score - FastText : 0.11741353784759165

@@ -1,0 +1,50 @@
+****************************Classification Report of SVM -
+TF-IDF****************************
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.96      0.92      1213
+         1.0       0.96      0.90      0.93       915
+         2.0       0.94      0.90      0.92      1412
+
+    accuracy                           0.92      3540
+   macro avg       0.93      0.92      0.92      3540
+weighted avg       0.92      0.92      0.92      3540
+
+****************************Classification Report of RBF-Based SVM -
+TF-IDF****************************
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.98      0.92      1213
+         1.0       0.97      0.90      0.93       915
+         2.0       0.95      0.89      0.92      1412
+
+    accuracy                           0.92      3540
+   macro avg       0.93      0.92      0.92      3540
+weighted avg       0.93      0.92      0.92      3540
+
+****************************Classification Report of Random Forest Classifier-
+TF-IDF****************************
+              precision    recall  f1-score   support
+
+         0.0       0.89      0.90      0.89      1213
+         1.0       0.88      0.86      0.87       915
+         2.0       0.91      0.91      0.91      1412
+
+    accuracy                           0.89      3540
+   macro avg       0.89      0.89      0.89      3540
+weighted avg       0.89      0.89      0.89      3540
+
+****************************Classification Report of XGBoost Classifier -
+TF-IDF****************************
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.97      0.92      1213
+         1.0       0.96      0.89      0.92       915
+         2.0       0.93      0.89      0.91      1412
+
+    accuracy                           0.91      3540
+   macro avg       0.92      0.91      0.92      3540
+weighted avg       0.92      0.91      0.91      3540
+
+KMeans ARI - TF-IDF : 0.28442225623685213
+KMeans Silhouette Score - TF-IDF : 0.0010567652608167231

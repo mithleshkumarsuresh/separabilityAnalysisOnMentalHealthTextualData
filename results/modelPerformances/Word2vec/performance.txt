@@ -1,0 +1,50 @@
+****************************Classification Report of SVM -
+Word2vec****************************
+              precision    recall  f1-score   support
+
+         0.0       0.91      0.86      0.88      1213
+         1.0       0.86      0.89      0.87       915
+         2.0       0.87      0.88      0.88      1412
+
+    accuracy                           0.88      3540
+   macro avg       0.88      0.88      0.88      3540
+weighted avg       0.88      0.88      0.88      3540
+
+****************************Classification Report of RBF-Based SVM -
+Word2vec****************************
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.91      0.90      1213
+         1.0       0.92      0.89      0.91       915
+         2.0       0.89      0.90      0.89      1412
+
+    accuracy                           0.90      3540
+   macro avg       0.90      0.90      0.90      3540
+weighted avg       0.90      0.90      0.90      3540
+
+****************************Classification Report of Random Forest Classifier-
+Word2vec****************************
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.94      0.91      1213
+         1.0       0.96      0.83      0.89       915
+         2.0       0.89      0.90      0.89      1412
+
+    accuracy                           0.90      3540
+   macro avg       0.91      0.89      0.90      3540
+weighted avg       0.90      0.90      0.90      3540
+
+****************************Classification Report of XGBoost Classifier -
+Word2vec****************************
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.95      0.93      1213
+         1.0       0.96      0.89      0.92       915
+         2.0       0.91      0.92      0.91      1412
+
+    accuracy                           0.92      3540
+   macro avg       0.92      0.92      0.92      3540
+weighted avg       0.92      0.92      0.92      3540
+
+KMeans ARI - Word2vec : 0.22012008220452806
+KMeans Silhouette Score - Word2vec : 0.2007835344831979
